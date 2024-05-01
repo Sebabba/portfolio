@@ -8,7 +8,12 @@ const Navbar = () => {
                     Sebastiano's Porfolio
                 </Link>
             </div>
-            <a href="" className="cta-btn">Resume</a>
+            <a href="/CV_Definitivo.pdf"
+                download="Resume_PDF"
+                target="_blank"
+                rel="noreferrer" 
+                className="cta-btn">Resume
+            </a>
         </div>
     )
 }
