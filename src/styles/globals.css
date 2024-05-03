@@ -285,6 +285,10 @@ hr {
   background-color: #339933;
 }
 
+.skills-container .grid-skills .java:hover {
+  background-color: #f89820;
+}
+
 .skills-container .grid-skills .python:hover {
   background-color: #3776AB;
 }

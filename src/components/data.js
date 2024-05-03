@@ -1,37 +1,42 @@
 export const projectData = [
     {
       id: 1,
-      title: 'Todo List App',
+      title: 'EOLO Blog',
       description:
-        'A simple Todo List App built with JavaScript. All datas are stored in localstorage. It helps users check list out their plans and tick as they do them.',
-      gitHubLink: 'https://github.com/olawanlejoel/Todo-List-App',
+        "Blog section for EOLO. Created for SEO purposes to promote EOLO's products.",
+      gitHubLink: '',
+      detailLink: '/eolo-blog',
     },
     {
       id: 2,
-      title: 'Books Library App',
+      title: 'EOLO SEO',
       description:
-        'A simple Book Library App built with JavaScript. It helps readers have a good list of books they are either currently reading or have finished reading.',
-      gitHubLink: 'https://github.com/olawanlejoel/Book-Library',
+        "Search Engine Optimization (SEO) optimization to enhance the site's indexing.",
+      gitHubLink: '',
+      detailLink: '',
     },
     {
       id: 3,
-      title: 'Quotes Generator',
+      title: 'One-shot Music Genre Classification',
       description:
-        'Helps you generate quotes from about 1600 quotes written by different authors . Quotes are automatically copied to your clipboards.',
-      gitHubLink: 'https://github.com/olawanlejoel/random-quote-generator',
+        'University thesis project. Modification of a Convolutional Siamese Neural Network for music genres classification using the One-Shot approach.',
+      gitHubLink: '',
+      detailLink: '',
     },
     {
       id: 4,
-      title: 'Password Generator',
+      title: 'Simple Flanger',
       description:
-        'Helps you generates random passwords, you can select what you want your password to entail and also you can copy generated password to clipboard.',
-      gitHubLink: 'https://github.com/olawanlejoel/Password-Generator',
+        'PAudio plugin available standalone or VST created with JUCE, a C++ framework.',
+      gitHubLink: '',
+      detailLink: '',
     },
     {
       id: 5,
-      title: 'Twitter UI Clone',
+      title: 'Weather app',
       description:
-        'Simple Twitter UI clone built with TailwindCSS and Vue Js. This covers only the homepage of Twitter UI. This is cool to get started with TailwindCSS as it helps understand basic concepts.',
-      gitHubLink: 'https://github.com/olawanlejoel/TwitterUI-clone',
+        'Simple weather app created with React. Trying to improve it.',
+      gitHubLink: '',
+      detailLink: '',
     },
   ];
