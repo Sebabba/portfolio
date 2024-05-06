@@ -9,34 +9,35 @@ export const projectData = [
     },
     {
       id: 2,
+      title: 'Weather app',
+      description:
+        'Simple weather app created with React. It shows th current weather from a city from an autocomplete text field.',
+      gitHubLink: '',
+      detailLink: '/weather-app',
+    },
+    {
+      id: 3,
       title: 'EOLO SEO',
       description:
         "Search Engine Optimization (SEO) optimization to enhance the site's indexing.",
       gitHubLink: '',
-      detailLink: '',
+      detailLink: '/eolo-seo',
     },
     {
-      id: 3,
+      id: 4,
       title: 'One-shot Music Genre Classification',
       description:
         'University thesis project. Modification of a Convolutional Siamese Neural Network for music genres classification using the One-Shot approach.',
       gitHubLink: '',
-      detailLink: '',
+      detailLink: '/oneshot',
     },
     {
-      id: 4,
+      id: 5,
       title: 'Simple Flanger',
       description:
         'PAudio plugin available standalone or VST created with JUCE, a C++ framework.',
       gitHubLink: '',
-      detailLink: '',
+      detailLink: 'simple-flanger',
     },
-    {
-      id: 5,
-      title: 'Weather app',
-      description:
-        'Simple weather app created with React. Trying to improve it.',
-      gitHubLink: '',
-      detailLink: '',
-    },
+    
   ];
