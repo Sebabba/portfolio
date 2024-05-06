@@ -8,17 +8,24 @@ const eolo_seo = () => {
                 <div className="project-title">
                     <h1>EOLO SEO</h1>
                 </div>
+                <p className="project-link">
+                    <a href="https://www.eolo.it/home/casa.html"><i class="fa-solid fa-earth-americas"></i> Go to website</a>
+                </p>
             </div>
             <div className="project-content-container">
                 <p>
-                    Search Engine Optimization (SEO) is essential for any website as it determines its visibility and ranking in
-                    search engine results pages (SERPs) such as Google, Bing, and Yahoo. A good ranking in search results increases
-                    the likelihood of the site being visited by users, leading to greater brand exposure, organic traffic,
-                    and potentially more conversions.
+                    Search Engine Optimization, commonly known as SEO, is undoubtedly a vital aspect for any website. It is the
+                    determining factor behind a website's visibility and its ranking on Search Engine Results Pages (SERPs) of
+                    various search engines, including Google, Bing, and Yahoo. Achieving a high ranking in search results
+                    significantly increases the likelihood of users visiting the site. This, in turn, leads to greater brand
+                    exposure, increased organic traffic, and a higher probability of conversions, all of which are crucial for a
+                    website's success.
                 </p>
                 <p>
-                    Specifically, I have focused on improving the SEO for the website <a href="https://www.eolo.it/home/casa.html">eolo.it</a>, with a particular emphasis on
-                    front-end optimizations aimed at enhancing product indexing.
+                    In recent times, I have dedicated my efforts to improving the SEO for the website <a href="https://www.eolo.it/home/casa.html">eolo.it</a>. My work has primarily involved front-end optimizations
+                    with the specific aim of enhancing product indexing. The objective behind this is to make the website's products
+                    more easily discoverable on search engines, thereby driving more potential customers to the site and increasing
+                    the chances of product purchases.
                 </p>
                 <div className="project-image">
                     <Image src={blog_seo} />
@@ -42,6 +49,12 @@ const eolo_seo = () => {
                         ensuring flexibility in optimizing heading tags (H1, H2, etc.) for target keywords and improving the
                         overall structure and readability of the content.</li>
                 </ol>
+                <p>
+                    Collectively, these efforts have made a significant contribution to improving the SEO performance of EOLO.
+                    The results have been clearly visible in terms of increased organic traffic and better visibility in search
+                    engine results. This goes to show the impact and importance of a well-executed SEO strategy for a website's
+                    success.
+                </p>
             </div>
         </>
     )
