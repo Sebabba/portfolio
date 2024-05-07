@@ -1,4 +1,5 @@
 import Image from "next/image";
+import weather_app_image from "@/images/weather_app.png";
 
 const weather_app = () => {
     return (
@@ -9,9 +10,6 @@ const weather_app = () => {
                     <p className="project-link">
                         <a href="https://github.com/Sebabba/WeatherApp"><i className="fa-brands fa-github"></i> Go to GitHub</a>
                     </p>
-                </div>
-                <div className="project-image">
-
                 </div>
             </div>
             <div className="project-content-container">
@@ -34,6 +32,9 @@ const weather_app = () => {
                     the city's coordinates, and then make a request to the Open Weather API with these coordinates. The weather
                     data returned from this API was then displayed to the user.
                 </p>
+                <div className="project-image">
+                        <Image src={weather_app_image} />
+                </div>
                 <p>
                     This project was an excellent opportunity for me to gain practical experience working with React and external
                     APIs. I learned how to handle user input, manage state, and make API requests within a React application. I
