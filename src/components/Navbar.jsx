@@ -5,7 +5,7 @@ const Navbar = () => {
         <div className="nav-container">
             <div className="logo">
                 <Link href="/">
-                    Sebastiano's Porfolio
+                    Sebastiano's Portfolio
                 </Link>
             </div>
             <a href="/CV_Definitivo.pdf"

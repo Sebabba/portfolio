@@ -9,7 +9,7 @@ const Hero = () => {
                 <h1>Hi, I'm Sebastiano 👋</h1>
                 <p>
                     I'm a software developer and engineer based in Italy. I am primarily specialized in front-end development, 
-                    with experience in building websites and applications using Magnolia CMS and React JS. 
+                    with experience in building websites and applications using React JS and Magnolia CMS. 
                     I also have experience in back-end development, including database management and AWS implementation.
                 </p>
                 <div className="social-icons">
