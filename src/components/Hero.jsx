@@ -3,7 +3,9 @@ import avatar from '../images/avatar.jpg';
 
 const Hero = () => {
     return (
+        <>
         <div className="hero-container">
+            
             <Image src={avatar} className="profile-img" width={300} height={300} alt="Sebastiano's profile picture" />
             <div className="hero-text">
                 <h1>Hi, I'm Sebastiano 👋</h1>
@@ -32,6 +34,7 @@ const Hero = () => {
                 </div>
             </div>
         </div>
+        </>
     )
 }
 
